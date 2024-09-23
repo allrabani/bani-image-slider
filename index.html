@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Animal Slider</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,900;1,100;1,200;1,400;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+      </nav>
+    </header>
+
+    <div class="slider">
+      <div class="list">
+        <div class="item">
+          <img src="img/1.jpg" alt="Image 1" />
+          <div class="detail">
+            <div class="title">Animal</div>
+            <div class="name">Lion</div>
+            <figure>
+              <figcaption>King of the savannah, ruling with strength, courage, and wisdom.</figcaption>
+            </figure>
+            <div class="des">The lion, a majestic predator, embodies strength, leadership, and courage in the vast African savannah.</div>
+            <a href="#" class="more">More details &raquo;</a>
+          </div>
+        </div>
+        <div class="item">
+          <img src="img/2.jpg" alt="Image 2" />
+          <div class="detail">
+            <div class="title">Animal</div>
+            <div class="name">Eagle</div>
+            <figure>
+              <figcaption>Soaring high above the wind, the eagle symbolizes boundless freedom.</figcaption>
+            </figure>
+            <div class="des">The eagle, with its sharp gaze and powerful wings, represents strength, vision, and untamed freedom.</div>
+            <a href="#" class="more">More details &raquo;</a>
+          </div>
+        </div>
+        <div class="item">
+          <img src="img/3.jpg" alt="Image 3" />
+          <div class="detail">
+            <div class="title">Animal</div>
+            <div class="name">King Cobra</div>
+            <figure>
+              <figcaption>Silent predator, slithering through shadows, nature's elegant yet deadly mystery.</figcaption>
+            </figure>
+            <div class="des">King cobra, a majestic serpent, fiercely venomous, dominating jungles with its imposing hooded presence.</div>
+            <a href="#" class="more">More details &raquo;</a>
+          </div>
+        </div>
+        <div class="item">
+          <img src="img/4.jpg" alt="Image 4" />
+          <div class="detail">
+            <div class="title">Animal</div>
+            <div class="name">Wolves</div>
+            <figure>
+              <figcaption>Silent hunter, loyal to the pack, roaming wild under moonlit skies.</figcaption>
+            </figure>
+            <div class="des">Wolves, intelligent pack hunters, embody loyalty and strength, thriving in the wilderness with primal grace..</div>
+            <a href="#" class="more">More details &raquo;</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="thumbnail">
+        <div class="item">
+          <img src="img/1.jpg" alt="thumbnail 1" />
+          <div class="detail">
+            <div class="name">Lion</div>
+            <blockquote>The true power of a lion lies in its heart, where courage and confidence dwell.</blockquote>
+          </div>
+        </div>
+        <div class="item">
+          <img src="img/2.jpg" alt="thumbnail 2" />
+          <div class="detail">
+            <div class="name">Eagle</div>
+            <blockquote>Fly high with the attitude of an eagle and conquer the skies.</blockquote>
+          </div>
+        </div>
+        <div class="item">
+          <img src="img/3.jpg" alt="thumbnail 3" />
+          <div class="detail">
+            <div class="name">King Cobra</div>
+            <blockquote>The king cobra silently glides, its deadly gaze paralyzing everything in sight.</blockquote>
+          </div>
+        </div>
+        <div class="item">
+          <img src="img/4.jpg" alt="thumbnail 4" />
+          <div class="detail">
+            <div class="name">Wolves</div>
+            <blockquote>Wolves howls beneath the moon, echoing strength, loyalty, and untamed wilderness.</blockquote>
+          </div>
+        </div>
+      </div>
+
+      <div class="arrows">
+        <button id="prev">&lt;</button>
+        <button id="next">&gt;</button>
+      </div>
+
+      <div class="loadingbar"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
