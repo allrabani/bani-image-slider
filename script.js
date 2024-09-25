@@ -37,8 +37,8 @@ const initSlider = (type) => {
     slider.classList.remove("prev");
   }, 2000);
 
-  clearTimeout(runAutiPlay);
-  runAutiPlay = setTimeout(() => {
+  clearTimeout(runAutoPlay);
+  runAutoPlay = setTimeout(() => {
     next.click();
   }, 7000);
 };
