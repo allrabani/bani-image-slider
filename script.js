@@ -5,7 +5,7 @@ const next = document.querySelector("#next");
 const prev = document.querySelector("#prev");
 
 // Auto Play
-let runAutiPlay = setTimeout(() => {
+let runAutoPlay = setTimeout(() => {
   next.click();
 }, 7000);
 
